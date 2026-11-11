@@ -12,5 +12,9 @@
     <PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
     <PackageReference Include="Antlr4BuildTasks" Version="12.8.0" />
   </ItemGroup>
-
+<ItemGroup>
+  <Antlr4 Include="Parsers\CS.g4">
+    <Package>CodeTranspiler.Parsers</Package>
+  </Antlr4>
+</ItemGroup>
 </Project>
